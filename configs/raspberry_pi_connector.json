@@ -1,0 +1,24 @@
+{
+  "client_id": "raspberry_pi_connector",
+  "patient_id": "patient_001",
+  "catalog_url": "http://127.0.0.1:8090",
+  "mqtt": {
+    "broker": "localhost",
+    "port": 1883
+  },
+  "publish_interval_sec": 5,
+  "fever_probability": 0.05,
+  "pillbox_open_probability": 0.08,
+  "topics": {
+    "temperature": "/rehab/patient_001/rpi/temperature",
+    "activity": "/rehab/patient_001/rpi/activity",
+    "night_activity": "/rehab/patient_001/rpi/night_activity",
+    "pillbox": "/rehab/patient_001/rpi/pillbox"
+  },
+  "units": {
+    "temperature": "C",
+    "activity": "motion_count",
+    "night_activity": "motion_count",
+    "pillbox": "event"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "host": "0.0.0.0",
+  "port": 8090,
+  "user_settings_path": "data/user_settings.json",
+  "setting": {
+    "platformId": "smart_rehab_01",
+    "patientId": "patient_001",
+    "mqtt": {
+      "broker": "localhost",
+      "port": 1883
+    },
+    "thresholds": {
+      "fever_c": 38.0,
+      "rapid_rise_c_per_min": 0.5,
+      "inactivity_motion_threshold": 20,
+      "awakening_motion_threshold": 8
+    },
+    "medication_schedule": ["08:00", "13:00", "20:00"],
+    "routine_reminder_lead_min": 5,
+    "routine_reminder_late_min": 5,
+    "sleep_time_schedule": {
+      "start": "22:00",
+      "end": "07:00"
+    },
+    "notification": {
+      "language": "en",
+      "telegram_enabled": true
+    }  
+  }
+}

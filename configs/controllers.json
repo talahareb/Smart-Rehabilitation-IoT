@@ -1,0 +1,43 @@
+{
+  "catalog_url": "http://127.0.0.1:8090",
+  "mqtt": {
+    "broker": "localhost",
+    "port": 1883
+  },
+  "client_id": "vital_signs_controller",
+  "patient_id": "patient_001",
+  "temperature_topic": "/rehab/patient_001/rpi/temperature",
+  "activity_topic": "/rehab/patient_001/rpi/activity",
+  "night_activity_topic": "/rehab/patient_001/rpi/night_activity",
+  "pillbox_topic": "/rehab/patient_001/rpi/pillbox",
+  "alert_topics": [
+    "/rehab/patient_001/alerts/temperature",
+    "/rehab/patient_001/alerts/activity",
+    "/rehab/patient_001/alerts/medication"
+  ],
+  "temperature_alert_topic": "/rehab/patient_001/alerts/temperature",
+  "activity_alert_topic": "/rehab/patient_001/alerts/activity",
+  "medication_alert_topic": "/rehab/patient_001/alerts/medication",
+  "summary_topic": "/rehab/patient_001/summary/temperature",
+  "activity_summary_topic": "/rehab/patient_001/summary/activity",
+  "sleep_summary_topic": "/rehab/patient_001/summary/sleep",
+  "medication_summary_topic": "/rehab/patient_001/summary/medication",
+  "notification_topic": "/rehab/patient_001/notifications/reminder",
+  "moving_average_window": 5,
+  "fever_threshold_c": 38.0,
+  "temperature_rapid_rise_c": 1.0,
+  "activity_window_sec": 60,
+  "inactivity_motion_threshold": 20,
+  "inactivity_alert_after_sec": 120,
+  "sleep_window_sec": 300,
+  "sleep_summary_interval_sec": 60,
+  "awakening_motion_threshold": 8,
+  "medication_schedule": ["08:00", "13:00","20:00"],
+  "medication_on_time_window_min":30,
+  "medication_missed_after_min": 120,
+  "schedule_check_interval_sec": 30,
+  "routine_reminder_lead_min": 5,
+  "routine_reminder_late_min": 5,
+  "night_activity_sample_interval_sec": 5,
+  "settings_refresh_interval_sec": 30
+}

@@ -1,0 +1,20 @@
+{
+  "catalog_url": "http://127.0.0.1:8090",
+  "mqtt": {
+    "broker": "localhost",
+    "port": 1883
+  },
+  "topics": [
+    "/rehab/patient_001/alerts/temperature",
+    "/rehab/patient_001/alerts/activity",
+    "/rehab/patient_001/alerts/medication",
+    "/rehab/patient_001/notifications/reminder",
+    "/rehab/patient_001/summary/temperature",
+    "/rehab/patient_001/summary/activity",
+    "/rehab/patient_001/summary/sleep",
+    "/rehab/patient_001/summary/medication"
+  ],
+  "bot_token": "",
+  "chat_ids": [],
+  "enable_commands": true
+}

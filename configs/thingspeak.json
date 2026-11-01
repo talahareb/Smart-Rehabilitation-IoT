@@ -1,0 +1,29 @@
+{
+  "catalog_url": "http://127.0.0.1:8090",
+  "mqtt": {
+    "broker": "localhost",
+    "port": 1883
+  },
+  "summary_topics": [
+    "/rehab/patient_001/summary/temperature",
+    "/rehab/patient_001/summary/activity",
+    "/rehab/patient_001/summary/sleep",
+    "/rehab/patient_001/summary/medication",
+    "/rehab/patient_001/notifications/reminder"
+  ],
+  "raw_topics": [
+    "/rehab/patient_001/rpi/night_activity"
+  ],
+  "local_store": "data/timeseries.jsonl",
+  "rest_url": "http://127.0.0.1:8092",
+  "rest": {
+    "host": "0.0.0.0",
+    "port": 8092
+  },
+  "thingspeak": {
+    "enabled": false,
+    "channel_id": "",
+    "write_api_key": "",
+    "min_upload_interval_sec": 16
+  }
+}
