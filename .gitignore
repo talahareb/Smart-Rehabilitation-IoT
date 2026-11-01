@@ -1,0 +1,22 @@
+
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local generated data and settings
+data/
+*.log
+
+# Local integration credentials
+configs/telegram.json
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
