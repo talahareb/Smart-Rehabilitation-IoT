@@ -214,4 +214,4 @@ This is a **collaborative project** developed by:
 - **Shiyun Tang**
 - **Xianlu Feng**
 
-The original use-case proposal (version 0.7, November 2025) provides the motivation, objectives, and architecture diagram featured above. The code package is based on the collaborative project's updated implementation, available from the [original repository](https://github.com/lixiang4312-beep/SMART_REHAB_IoT).
+
